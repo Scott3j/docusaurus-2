@@ -8,8 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://your-correct-deployment-url.com',
+  organizationName: 'your-github-org-or-user-name', // Usually your GitHub org/user name.
+  projectName: 'your-repo-name', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -37,10 +38,11 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+            'https://github.com/your-github-org-or-user-name/your-repo-name/edit/main/',
         blog: {
           showReadingTime: true,
+          editUrl:
+            'https://github.com/your-github-org-or-user-name/your-repo-name/edit/main/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
