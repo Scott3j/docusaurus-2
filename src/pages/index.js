@@ -22,6 +22,7 @@ function HomepageHeader() {
           >
             Docusaurus Tutorial - 5min ⏱️
           </Link>
+          <button className={styles.fartButton}>fart</button>
         </div>
       </div>
     </header>
